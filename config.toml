@@ -13,8 +13,7 @@ pygmentsCodeFences=true
   main = "Hi, I'm John Sebastian:wave:"
   sub = "Researcher/Engineer"
 
-[params.main]
-  latestPublishHeader = "My Latest Project"
+
 
 [taxonomies]
   design = "designs"
@@ -40,9 +39,10 @@ pygmentsCodeFences=true
   portfolio = "project"
 
 [params.sidebar]
-  backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
-  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "" # - default "/images/edna-west.jpg"
+  backgroundImage = '/images/default_sidebar.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = ''                            # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "/images/icon.jpeg"                      # - default "/images/avatar.jpeg"
+
 [params.assets]
   favicon = ""
   customCSS = ""
@@ -50,17 +50,11 @@ pygmentsCodeFences=true
 [params.social]
   github = "https://github.com/john-seb"
   twitter = "https://twitter.com/johnmcseb"
-  linkedin = "https://www.linkedin.com/in/"
-  medium = "https://medium.com/"
-  codepen = "https://codepen.io/"
-  facebook = "https://www.facebook.com/"
-  youtube = "https://www.youtube.com/"
-  instagram = "https://www.instagram.com/"
-  gitlab = "https://gitlab.com/"
-  keybase = "https://keybase.io/"
+  linkedin = "https://www.linkedin.com/in/john-sebastian"
+
 
 [params.contact]
-  email = ""
+  email = "mailto:johnmcseb@disroot.org"
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
@@ -69,15 +63,15 @@ pygmentsCodeFences=true
 [[menu.main]]
   identifier = "about"
   name = "About"
-  title = "About section"
+  title = "About"
   url = "/about/"
   weight = -120
 
 [[menu.main]]
-  identifier = "portfolio"
-  name = "Portfolio"
-  title = "Portfolio"
-  url = "/portfolio/"
+  identifier = "presentations/"
+  title = "Presentations"
+  name = "Presentations"
+  url = "/presentations/"
   weight = -110
 
 [[menu.main]]
@@ -87,6 +81,13 @@ pygmentsCodeFences=true
   url = "/post/"
   weight = -100
 
+[[menu.main]]
+  identifier = "articles"
+  name = "Articles"
+  title = "Writing"
+  url = "/articles/"
+  weight = -90
+  
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
