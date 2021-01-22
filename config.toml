@@ -1,8 +1,8 @@
-baseURL = "https://example.com/"
+baseURL = "https://john-mech.github.io/"
 languageCode = "en-us"
-title = "Edna West"
+title = "John Sebastian"
 theme = "personal-web"
-copyright="© Edna West"
+copyright="© John Sebastian"
 googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
@@ -10,8 +10,8 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm Edna :wave:"
-  sub = "I'm a Web Developer and Entrepreneur"
+  main = "Hi, I'm John Sebastian:wave:"
+  sub = "Researcher/Engineer"
 
 [params.main]
   latestPublishHeader = "My Latest Project"
@@ -48,8 +48,8 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/"
-  twitter = "https://twitter.com/"
+  github = "https://github.com/john-seb"
+  twitter = "https://twitter.com/johnmcseb"
   linkedin = "https://www.linkedin.com/in/"
   medium = "https://medium.com/"
   codepen = "https://codepen.io/"
